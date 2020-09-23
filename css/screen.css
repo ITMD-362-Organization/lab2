@@ -1,11 +1,16 @@
 body {
   margin: 5% auto;
-  background-color: rgb(100,100,100);
-  padding: 0 40%;
+  background-color: rgb(100,110,120);
+  color: rgb(170,190,200
+}
+
+fieldset {
+  width: 60%;
 }
 
 legend {
   text-align: center;
+  font-size: 20pt;
 }
 
 .sumbit {
@@ -16,4 +21,5 @@ legend {
 }
 
 @media only screen and (max-width: 800) {
+  fieldset: width: 70%;
 }

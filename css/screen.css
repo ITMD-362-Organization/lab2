@@ -52,7 +52,10 @@ input {
 
 @media only screen and (min-width: 800px) {
   input {
-    width: 30%;
+    width: 35%;
+  }
+  fieldset {
+    width: 48%
   }
 }
 

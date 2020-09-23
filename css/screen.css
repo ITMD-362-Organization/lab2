@@ -8,6 +8,7 @@ fieldset {
   width: 60%;
   margin: 10% auto;
   background-color: rgb(220,230,235);
+  border-radius: 20px;
 }
 
 legend {

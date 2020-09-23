@@ -43,7 +43,7 @@ input {
   /* creates proper spacing for submit button margin-bottom: 50px; */
   text-align: center;
   padding: 12px 40px;
-  margin: 20px;
+  margin: 20px auto;
   width: 1500px;
   color: rgb(230,235,240);
   background-color: rgb(100,110,120);

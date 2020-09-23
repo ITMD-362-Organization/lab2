@@ -1,5 +1,13 @@
 body {
   margin: 5% auto;
-  background-color: rbg(100,100,100);
+  background-color: rgb(100,100,100);
   padding: 0 60%;
+}
+
+legend {
+  text-align: center;
+}
+
+.sumbit {
+  text-align: center;
 }

@@ -1,11 +1,12 @@
 body {
   margin: 5% auto;
   background-color: rgb(150,160,170);
-  color: rgb(170,190,200);
+  color: rgb(150,160,170);
 }
 
 fieldset {
   width: 60%;
+  margin: 5% auto;
   background-color: rgb(220,230,235);
 }
 
@@ -16,8 +17,8 @@ legend {
 
 label {
   margin: 20px 10px;
+  font-size: 20pt;
 }
-
 
 .sumbit {
   text-align: center;

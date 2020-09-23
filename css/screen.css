@@ -1,42 +1,50 @@
 body {
-  margin: 5% auto;
+  margin: 5px auto;
+  /* sets page color to ligth grey blue and font to a darker grey blue */
   background-color: rgb(170,180,190);
   color: rgb(130,140,150);
 }
 
 fieldset {
+  /* centers title */
   width: 60%;
-  margin: 10% auto;
+  margin: 20px auto;
+  /* rounds corners and sets background color of form to light grey blue */
   background-color: rgb(230,235,240);
   border-radius: 20px;
 }
 
 legend {
+  /* centers title with proper spacing */
   text-align: center;
-  font-size: 20pt;
   padding-top: 100px;
+  font-size: 20pt;
 }
 
 label {
+  /* creates proper spacing and font size of label */
   margin: 10px 20px;
   font-size: 16pt;
 }
 
 input {
+  /* create proper spacing for input boxes */
   margin: 10px 20px;
+  padding: 10px;
+  /* rounds corners and sets border color to a darker grey */
   border-radius: 10px;
   border: 1px solid rgb(130,140,150);
-  padding: 10px;
+  /* input box will always take 55% of form box */
   width: 55%;
   
 }
 
 .sumbit {
+  /* creates proper spacing for submit button */
   text-align: center;
-  align-items: center;
   padding: 12px 40px;
-  margin: 15px auto;
-  width: %25;
+  margin-bottom: 50px;
+  width: 25%;
 }
 
 @media only screen and (min-width: 800) {
@@ -45,6 +53,7 @@ input {
   }
 }
 
+/* modifies css for mobile devices */
 @media only screen and (max-width: 800) {
   fieldset: width: 70%;
 }

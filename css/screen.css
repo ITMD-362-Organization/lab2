@@ -58,5 +58,7 @@ input {
 
 /* modifies css for mobile devices */
 @media only screen and (max-width: 800) {
-  fieldset: width: 70%;
+  fieldset { 
+    width: 70%;
+  }
 }

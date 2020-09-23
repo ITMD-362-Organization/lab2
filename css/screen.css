@@ -6,18 +6,18 @@ body {
 
 fieldset {
   width: 60%;
-  margin: 5% auto;
+  margin: 10% auto;
   background-color: rgb(220,230,235);
 }
 
 legend {
   text-align: center;
-  font-size: 30pt;
+  font-size: 20pt;
 }
 
 label {
   margin: 20px 10px;
-  font-size: 20pt;
+  font-size: 16pt;
 }
 
 input {
@@ -26,6 +26,7 @@ input {
 
 .sumbit {
   text-align: center;
+  align-items: center;
 }
 
 @media only screen and (min-width: 800) {

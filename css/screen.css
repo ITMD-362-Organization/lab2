@@ -2,7 +2,7 @@ body {
   margin: 5px auto;
   /* sets page color to ligth grey blue and font to a darker grey blue */
   background-color: rgb(170,180,190);
-  color: rgb(130,140,150);
+  color: rgb(100,110,120);
 }
 
 fieldset {
@@ -44,7 +44,10 @@ input {
   text-align: center;
   padding: 12px 40px;
   margin-bottom: 50px;
-  width: 25%;
+  width: 60px;
+  background-color: rgb(230,235,240);
+  color: rgb(100,110,120);
+  
 }
 
 @media only screen and (min-width: 800) {

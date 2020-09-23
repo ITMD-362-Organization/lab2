@@ -1,16 +1,17 @@
 body {
   margin: 5% auto;
-  background-color: rgb(100,110,120);
-  color: rgb(170,190,200
+  background-color: rgb(150,160,170);
+  color: rgb(170,190,200);
 }
 
 fieldset {
   width: 60%;
+  background-color: rgb(220,230,235);
 }
 
 legend {
   text-align: center;
-  font-size: 20pt;
+  font-size: 30pt;
 }
 
 .sumbit {

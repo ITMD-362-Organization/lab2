@@ -20,6 +20,10 @@ label {
   font-size: 20pt;
 }
 
+input {
+  margin: 20px 10px;
+}
+
 .sumbit {
   text-align: center;
 }

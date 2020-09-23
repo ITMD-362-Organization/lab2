@@ -14,6 +14,7 @@ fieldset {
 legend {
   text-align: center;
   font-size: 20pt;
+  padding-top: 12px;
 }
 
 label {
@@ -31,6 +32,9 @@ input {
 }
 
 @media only screen and (min-width: 800) {
+  label {
+    margin-left: 40px;
+  }
 }
 
 @media only screen and (max-width: 800) {

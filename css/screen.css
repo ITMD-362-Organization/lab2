@@ -44,20 +44,20 @@ input {
   text-align: center;
   padding: 12px 40px;
   margin: 20px auto;
-  width: 60px;
+  width: 25%;
   background-color: rgb(230,235,240);
   color: rgb(100,110,120);
   
 }
 
-@media only screen and (min-width: 800) {
+@media only screen and (min-width: 800px) {
   label {
-    margin-left: 90px;
+    margin-left: 120px;
   }
 }
 
 /* modifies css for mobile devices */
-@media only screen and (max-width: 800) {
+@media only screen and (max-width: 800px) {
   fieldset { 
     width: 70%;
   }

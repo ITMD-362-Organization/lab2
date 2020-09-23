@@ -1,7 +1,7 @@
 body {
   margin: 5% auto;
   background-color: rgb(100,100,100);
-  padding: 0 60%;
+  padding: 0 40%;
 }
 
 legend {
@@ -10,4 +10,10 @@ legend {
 
 .sumbit {
   text-align: center;
+}
+
+@media only screen and (min-width: 800) {
+}
+
+@media only screen and (max-width: 800) {
 }
